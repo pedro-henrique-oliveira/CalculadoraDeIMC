@@ -45,7 +45,7 @@ def calcular():
     elif resultado >= 35 and resultado < 39.9:
         l_resultado_texto['text'] = "Obesidade grau 2"
     else:
-        l_resultado_texto['text'] = "Obesidade"
+        l_resultado_texto['text'] = "Obesidade (Mórbida)"
 
     l_resultado['text'] = "{:.{}f}".format(resultado, 2)
 
